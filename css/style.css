@@ -1,0 +1,76 @@
+body{
+	background: #000000de;
+}
+/* dark teal #004d40*/
+.badan{
+	height:560px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 10px;
+}
+nav{
+	background: transparent;
+	box-shadow: none;
+	margin-top: -20px;
+}
+.brand-logo{
+	margin-top: 5px;
+	margin-left: 10px;
+}
+nav ul a.btn-nav{
+	margin-left: -15px;
+}
+.dropdown-button{
+	background: #212121 !important;
+	box-shadow: none;
+}
+.dropdown-button:hover{
+	background: #424242 !important;
+}
+.btn-nav{
+	background: #212121 !important;
+	box-shadow: none;
+}
+.btn-nav:hover{
+	background: #424242 !important;
+}
+.nav-buatan{
+	width: 70px;
+	height: 70px;
+	background: #212121;
+	border-radius: 50%;
+	float: right;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 5px;
+	transition: 1s;
+	overflow: hidden;
+}
+.nav-buatan>p{
+	margin-top: 0;
+}
+#dropdown1{
+	margin-left: 15.5px;
+	margin-top: 50px;
+	background: #212121;
+}
+.dropdown-content li>a{
+	color: white;
+}
+.nav-isi{
+	position: relative;
+	color: white;
+	right: 80px;
+	
+}
+.tanda{
+	transition: 1s;
+	position: absolute;
+	right:23px;
+}
+nav ul a.kategori{
+	margin-left: -10px;
+}

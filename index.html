@@ -1,0 +1,61 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+      <section class="card-panel z-depth-5 badan grey darken-3">
+      	 <ul class='dropdown-content' id="dropdown1">
+		    <li>
+		    	<a href="#!"><i style='font-size:24px' class='fas'>&#xf55f;</i>Reggae</a>
+		    </li>
+		    <li>
+		    	<a href="#!"><i style='font-size:24px' class="fas fa-guitar" ></i>Pop</a>
+		    </li>
+		    <li>
+		    	<a href="#!"><i style="font-size: 24px" class="	fas fa-wheelchair"></i>Jazz</a>
+		    </li>
+		    <li>
+		    	<a href="#!"><i style="font-size: 24px" class="fab fa-napster"></i>Dubs</a>
+		    </li>
+		 </ul>
+         <nav class="">
+          <div class="nav-wrapper ">
+            <a href="#!" class="brand-logo"><img width="130" class="materialboxed" src="img/HILABS.png"></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <div class="nav-buatan z-depth-4">
+            	<a href="#!" class="tanda" onClick="klik()">+</a>
+	            <!-- awal dropdown -->
+	            <ul class="right nav-isi hide-on-med-and-down">
+		            <li><a href="#!" class="btn-nav btn">Album</a></li>
+		            <li><a href="#!" class="btn-nav btn">Trending</a></li>
+		            <li><a href="#!" class="btn-nav btn">Playlist</a></li>
+		            <li><a href="#" class='dropdown-button kategori btn' onClick="dropdown()" data-activates='dropdown1'><i class="material-icons right">music_note</i>Kategori</a>
+		           	</li>	            
+		        </ul>
+		      <!-- akhir dropdown -->
+            </div>
+            <button name="nav-ambil"></button>
+            <ul class="side-nav" id="mobile-demo">
+              <li><a href="#!">Album</a></li>
+              <li><a href="#!">Trending</a></li>
+              <li><a href="#!">Playlist</a></li>
+              <li><a href="#!">Kategori</a></li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+      <script type="text/javascript" src="js/MyScript.js"></script>
+    </body>
+  </html>
